@@ -1,0 +1,23 @@
+Type: Package
+Package: fontgis
+Title: A simple way to use GIS icons in R for spatial visualisation and analysis
+Version: 0.1.0
+Authors@R: 
+    person("antony", "barja", , "geografope@gmail.com", role = c("aut", "cre"))
+Description: Insert 'Font-GIS' icon sets into 'R Markdown' documents, 'Quarto' files, and 'Shiny' applications in a simple and flexible way.
+             The icons, designed for GIS and spatial analysis themes, can be integrated as 'SVG' elements or HTML '<i>' tags.
+             They can also be exported as 'PNG' images for use in contexts requiring raster graphics.
+License: MIT + file LICENSE
+Depends: R (>= 4.1.0)
+Imports: 
+    htmltools,
+    lifecycle,
+    rlang,
+    tidyr,
+    webshot2,
+    glue
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+URL: http://geografo.pe/fontgis/
